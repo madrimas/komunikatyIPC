@@ -19,8 +19,8 @@ if [ $# != 0 ]
 				make
 		else
 			echo -e "Nie ma takiej opcji.\n"
-			echo -e "Info:\n 1.Uruchom kolejkowanie\n 2. Urchom aspell\n 3. Pobierz ipcmd\n 4. Uruchom kolejkowanie IPC\n"
+			echo -e "Info:\n Jako parametr podaj:\n 1 -> Uruchom kolejkowanie\n 2 -> Uruchom aspell\n 3 -> Pobierz ipcmd i skompiluj\n 4 -> Uruchom kolejkowanie IPC\n 5 -> Skompiluj kolejkowanie"
 		fi
 else
-	echo -e "Info:\n Jako parametr podaj:\n 1. Uruchom kolejkowanie\n 2. Uruchom aspell\n 3. Pobierz ipcmd i skompiluj\n 4. Uruchom kolejkowanie IPC\n 5. Skompiluj kolejkowanie"
+	echo -e "Info:\n Jako parametr podaj:\n 1 -> Uruchom kolejkowanie\n 2 -> Uruchom aspell\n 3 -> Pobierz ipcmd i skompiluj\n 4 -> Uruchom kolejkowanie IPC\n 5 -> Skompiluj kolejkowanie"
 fi
