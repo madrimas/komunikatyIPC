@@ -6,12 +6,12 @@ if [ $# != 0 ]
 				path='./ipcmd/bin/ipcmd'
 
 		fi
-		x=$($path msgget)
+		wiadomosc=$($path msgget)
 		echo "Podaj wiadomosc do zakolejkowania:"
-		read wpisz
-		$path msgsnd -q $x $wpisz
+		read x
+		$path msgsnd -q $wiadomosc $x
 		echo "Wiadomosc z kolejki to:"
-		$path msgrcv -q $x
+		$path msgrcv -q $wiadomosc
 		echo
 
 else
