@@ -14,7 +14,7 @@ int main(int argc, char* argv[]){
 	int rozmiar, ID_wiadomosc, receive;
 	struct temp wiadomosc;
 	time_t weekend;
-    struct tm * test;
+	struct tm * test;
     
     time(&weekend);
     test=localtime(&weekend);
