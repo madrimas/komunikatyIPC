@@ -3,3 +3,5 @@ Projekt dotyka zagadnienia komunikatów IPC.
 Uruchamiany za pomocą skryptu 'uruchom.sh'. Informacje o działaniu skryptu są zawarte w skrypcie.
 Przy zmianie domyślnej ścieżki dostępu do ipcmd, należy dokonać odpowiedniej korekty w skrypcie 'uruchom.sh' i/lub 'IPC.sh'.
 Jeżeli aspell nie działa należy pobrać słownik języka polskiego "aspell-pl".
+
+W razie problemów proszę o kontakt: zapiorkowski@gmail.com
