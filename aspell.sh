@@ -6,5 +6,5 @@ if [ "$wiadomosc" = "$pomocnicza" ]
 	then
 		echo "Wyraz istnieje w slowniku jezyka polskiego"
 	else 
-		echo "Wyraz nie istnieje w slowniku jezyka polskiego"
+		echo "Wyraz nie istnieje w slowniku jezyka polskiego lub nie ma weekendu"
 fi
